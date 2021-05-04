@@ -2,8 +2,8 @@ from rest_framework import serializers
 
 from apps.certificates.models import Certificate
 # derializers
-class CertificateSerializer(serializer.ModelSerializer):
+class CertificateSerializer(serializers.ModelSerializer):
    
    class Meta:
         model = Certificate
-        fields = ['id', 'name']
+        fields = ['id', 'name', 'created_at', 'updated_at']
