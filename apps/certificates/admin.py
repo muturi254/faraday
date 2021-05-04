@@ -6,7 +6,7 @@ from apps.certificates.models import Certificate
 class CertficateAdmin(admin.ModelAdmin):
     list_display = ['name', 'created_at', 'updated_at']
     search_field = ['name']
-    list_filter = ['name']
+    list_filter = ['created_at']
 
 
 
