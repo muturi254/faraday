@@ -1,0 +1,11 @@
+virtual/
+*/migrations/
+.vscode/
+__pycache__/
+media/
+
+
+*.log
+*.pyc
+db.sqlite3
+.env
