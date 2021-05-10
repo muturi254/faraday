@@ -12,3 +12,6 @@ class WaitListEntry(Timestamps, models.Model):
         unique=True
     )
     notes = models.TextField()
+
+    class Meta:
+        verbose_name_plural = 'Wait list entries'
